@@ -1,0 +1,27 @@
+<resources>
+    <style name="BaseAppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#CD6F77</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F7F8FA</item>
+        <item name="android:navigationBarColor">#1E1E1E</item>
+        <item name="android:windowBackground">#F7F8FA</item>
+    </style>
+    <style name="AppTheme" parent="BaseAppTheme" />
+    <style name="PaletteRose" parent="AppTheme">
+        <item name="android:colorAccent">#CD6F77</item>
+    </style>
+    <style name="PaletteMint" parent="AppTheme">
+        <item name="android:colorAccent">#77A491</item>
+    </style>
+    <style name="PaletteLavender" parent="AppTheme">
+        <item name="android:colorAccent">#9C8FBF</item>
+    </style>
+    <style name="PaletteBlue" parent="AppTheme">
+        <item name="android:colorAccent">#7D9DBC</item>
+    </style>
+    <style name="BottomSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/sheet_enter</item>
+        <item name="android:windowExitAnimation">@anim/sheet_exit</item>
+    </style>
+</resources>
